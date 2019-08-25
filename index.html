@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Athena Sudbeck's Portfolio</title>
+<title>Athena Sudbeck's Graphic Design & Web development Portfolio</title>
 <meta name="description" content="">
 
 <meta charset="UTF-8" />
@@ -18,25 +18,102 @@
 <!-- Google Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Overpass&display=swap">
 
-<!--font awesome-->
+<!--Font Awesome-->
 <link rel="stylesheet" href="css/all.css">
+
+<!-- scripts -->
+<script src="https://web.archive.org/web/20150205013645js_/http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script type="text/javascript" src="hide.js">
+</script>
 </head>
 
 
 <body>
 <div class="wrapper">
   <header>
-    <h1><a href="index.html">Athena Sudbeck</a><br> is a Nebraska based graphic designer &amp;<br> front-end developer specializing in print, branding &amp; web development.
+    <h1>Athena Sudbeck<br>is a Nebraska based graphic designer &amp; front-end developer specializing in print, branding &amp; web development.
   </h1>
-  <p>Learn more about my experience, skills &amp; what I have to offer&#58; <a href="#">r&eacute;sum&eacute;</a></p>
+  <p>Learn more about my experience &amp; skills&#58; <a href="#">about me</a> &vert; <a href="#">r&eacute;sum&eacute; PDF</a></p>
   </header>
 
-<h2><span class="color">Featured Work<span></h2>
+  <h2>Featured Work</h2>
 
+  <!-- Projects -->
+  <div class="hide" id="content1">
+      <h1><a href="#">Prevent</a></h1><p>logo design<br><br>Prevent is a Registered Student Organization or RSO. It's mission is stopping relationship violence through peer education.</p>
+      <img src="images/prevent_logo.png" alt="prevent logo"><img src="images/prevent_shirt.png" alt="prevent t-shirt design">
+      <a href="#" class="button">visit website</a>
+      <a href="#" class="showMore1 button">close <i class="fas fa-arrow-up"></i></a>
+  </div>
+
+
+  <div class="hide" id="content2">
+      <p>Meet the Greeks<br><br>poster<br><br>Meet the Greeks is an event that highlights and  features the multicultural fraternities and sororities on UNL's campus. </p>
+      <img src="images/greek_flyer.png" alt="meet the greeks poster">
+      <a href="#" class="showMore2">close</a>
+  </div>
+
+  <div class="hide" id="content3">
+      <p>Karaoke<br><br>flyer<br><br>NU connections sponsored a karaoke night for the students.</p>
+      <img src="images/karaoke_poster.png" alt="karaoke poster">
+      <a href="#" class="showMore3">close</a>
+  </div>
+
+  <div class="hide" id="content4">
+      <p>Graduation Lunch Invitation<br><br>invitation<br><br>This special invitation is for the fall graduation luncheon.</p>
+      <img src="images/cover2.png" alt="invitation cover image">
+      <img src="images/inside.png" alt="invitation inside image">
+      <img src="images/back.png" alt="invitation back image">
+      <img src="images/inside_invitation.png" alt="invitation RSVP card image">
+      <a href="#" class="showMore4">close</a>
+  </div>
+
+  <div class="hide" id="content5">
+      <p>21st Annual Alumni of Color Career Forum<br><br>print materials<br><br>The ACCF needed the complete package for their event. This icluded flyers, posters, table tents, welcome poster, namebadges and event brochure.</p>
+      <img src="images/21_flyer.png" alt="ACCF flyer image">
+      <img src="images/tabletent.png" alt="table tent image">
+      <img src="images/brochure.png" alt="brochure image">
+      <a href="#" class="showMore5">close</a>
+  </div>
+
+  <div class="hide" id="content6">
+      <p>BUNKY ECHO HAWK<br><br>poster<br><br>Hawk is a Native American art activist who does live performances art paintings.</p>
+      <img src="images/bunky.jpg" alt="bunky echo hawk poster">
+      <a href="#" class="showMore6">close</a>
+  </div>
+
+  <div class="hide" id="content7">
+      <p>Public Service Fair<br><br>poster<br><br>The public service fair is a career fair for those interested in government and non-profit businesses.</p>
+      <img src="images/public.jpg" alt="public service fair poster">
+      <a href="#" class="showMore7">close</a>
+  </div>
+
+  <div class="hide" id="content8">
+      <p>UNL's Taekwondo club<br><br>logo<br><br>UNL's taekwondo club needed a logo to help further brand the club for recruiting and marketing purposes.</p>
+      <img src="images/teak_logo.jpg" alt="taekwondo logo">
+      <a href="#" class="showMore8">close</a>
+  </div>
+
+  <div class="hide" id="content9">
+      <p>Second Chance Cinema<br><br>logo<br><br>UPC and other organizations sponsor a second screening of popular videos to students, known as Second Chance Cinema</p>
+      <img src="images/2nd.jpg" alt="second chance cinema logo">
+       <img src="images/2ND_template.jpg" alt="second chance cinema template">
+      <a href="#" class="showMore9">close</a>
+  </div>
+
+  <div class="hide" id="content10">
+      <p>Peterson Toscano<br><br>poster<br><br>Toscano is a performance artist who talked about his time in an ex gay program.</p>
+      <img src="images/toscano.jpg" alt="toscano poster">
+      <a href="#" class="showMore10">close</a>
+  </div>
+
+<!-- thumbnails -->
 <div class="flex-container">
   <div class="box">
     <div><img src="https://via.placeholder.com/150x100" alt"">
-      <a href="#"><div class="overlay">
+      <a href="#" class="showMore1"><div class="overlay">
         <div class="text"><h1>Company</h1><p>Logo &amp; Website</p>
         </div>
       </div></a>
@@ -110,11 +187,10 @@
   </div>
 
 <footer>
-<p><a href="#"><i class="fas fa-file-alt"></i> r&eacute;sum&eacute;</a> &vert; <a href="mailto:AthenaSudbeck@gmail.com"><i class="fas fa-paper-plane"></i> contact</a> &vert; <a href="https:www.linkedin.com/in/athena-rockwell-sudbeck-7490162b"><i class="fab fa-linkedin"></i> Linkedin</a> &vert;
+<p><a href="#"><i class="fas fa-info-circle"></i> about</a> &vert; <a href="#"><i class="fas fa-file-alt"></i> r&eacute;sum&eacute;</a> &vert; <a href="mailto:AthenaSudbeck@gmail.com"><i class="fas fa-paper-plane"></i> contact</a> &vert; <a href="https:www.linkedin.com/in/athena-rockwell-sudbeck-7490162b"><i class="fab fa-linkedin"></i> Linkedin</a> &vert;
 <i class="far fa-copyright"></i> Copyright Athena Sudbeck 2019</p>
 </footer>
 
 </div>
 </body>
 </html>
-
